@@ -6,14 +6,13 @@
   background: rgba( 0, 255, 0, 0.15 );
   padding: 15px;
   display: flex;
-  justify-content: flex-start;
+  margin-top: 15px;
+  
   
 }
 .site-main {
   background: #ffc;
-  
-  display: flex;
-  justify-content: center;
+  display: column;
   padding: 20px;
   margin-top: 15px;
   
@@ -22,13 +21,14 @@
   border: 2px dashed black;
   margin: 1rem;
   padding: 1rem;
+  
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
  padding: 20px;
 }
 .site-nav li{
-  display: inline;
+  display: inline-block;
   border: 1.5px dashed grey;
 
   
