@@ -42,10 +42,9 @@ li{
   margin: 0px;
 }
 
-
 .articles {
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .main-section {
