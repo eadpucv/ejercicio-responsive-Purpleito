@@ -1,63 +1,51 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
+/**Rojo**/
 .site-header {
   background: rgba( 255, 0, 0, 0.15);
   padding: 20px;
 }
-
+/**verde**/
 .site-nav {
   background: rgba( 0, 255, 0, 0.15);
-  padding: 15px;
-  display: flex;
+
   margin-top: 15px;
 }
 
+ ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li{
+  border: 1.5px dashed grey;
+  display: inline-flex;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 0px;
+}
+/**Amarillo*/
 .site-main {
   background: #ffc;
-  display: column;
-  padding: 20px;
-  margin-top: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top:10px;
+  margin-top: 20px;
 }
 
 .hentry {
   border: 2px dashed black;
   padding: 1rem;
+  margin: 0px;
 }
 
-footer {
-  background: rgba(36, 36, 175, 0.15);
-  padding: 20px;
-}
-
-.site-nav li {
-  display: inline-block;
-  border: 1.5px dashed grey;
-}
-
-.left,
-.middle {
-  width: 33%;
-  display: inline-block;
-  margin-right: -3px;
-  height: 100%;
-}
-
-.right {
-  width: 33%;
-  display: inline-block;
-  height: 100%;
-}
 
 .articles {
-  width: 75%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.site-main {
-  height: 75%;
+  display: flex;
+  padding-bottom: 40px;
 }
 
 .main-section {
@@ -67,4 +55,9 @@ footer {
 .main-section__title {
   margin-left: 13%;
   text-align: left;
+}
+/**morado**/
+footer {
+  background: rgba(36, 36, 175, 0.15);
+  padding: 20px;
 }
