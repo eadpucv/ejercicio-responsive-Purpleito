@@ -1,12 +1,16 @@
 .site-header {
   background: rgba( 255, 0, 0, 0.15 );
-  padding: 20px;
+  padding: 1rem;
+}
+header{
+  display: flex;
+  flex-direction: row; 
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
-  padding: flex;
   margin-top: 15px;
   box-sizing: content-box;
+  padding: 1rem;
   
   
 }
@@ -14,25 +18,42 @@
   background: #ffc;
   padding: 20px;
   margin-top: 15px;
-  display: inline-block;
   
 }
 .hentry {
   border: 2px dashed black;
   margin: 1rem;
   padding: 1rem;
-  
-  
+  width: 33%;
+  height: 120px;
+}
+.main-section{
+  display: flex;
+  flex-direction: row;
+  padding-left: auto;
+  padding-right: auto;
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
  padding: 20px;
+ margin-right: 1rem;
+ margin-left: 1rem;
+ margin-bottom: 5rem;
+}
+.site-nav ul{
+  display: flex;
+  padding: 0px;
+  margin: 1rem;
 }
 .site-nav li{
-  display: inline-table;
+  display: inline-block;
   padding: flex;
-  box-sizing: content-box;
-  border: 1.5px dashed grey;
-
-  
+  border: 1.5px dashed grey; 
+}
+body {
+  font-family:Helvetica;
+}
+.caja{
+  display: flex;
+  flex-direction: row;
 }
