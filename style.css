@@ -4,17 +4,17 @@
 }
 .site-nav{
   background: rgba( 0, 255, 0, 0.15 );
-  padding: 15px;
-  display: flex;
+  padding: flex;
   margin-top: 15px;
+  box-sizing: content-box;
   
   
 }
 .site-main {
   background: #ffc;
-  display: column;
   padding: 20px;
   margin-top: 15px;
+  display: inline-block;
   
 }
 .hentry {
@@ -22,13 +22,16 @@
   margin: 1rem;
   padding: 1rem;
   
+  
 }
 footer {
  background: rgba( 0, 0, 255, 0.15 ); 
  padding: 20px;
 }
 .site-nav li{
-  display: inline-block;
+  display: inline-table;
+  padding: flex;
+  box-sizing: content-box;
   border: 1.5px dashed grey;
 
   
